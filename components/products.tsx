@@ -19,15 +19,15 @@ export function Products() {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary mb-6">
             <Beaker className="h-4 w-4" />
-            Our Products
+            Nuestros productos
           </div>
           
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4 text-balance">
-            Quality Chemical Solvents
+            Solventes químicos de calidad
           </h2>
           
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Discover our complete line of chemical solvents designed to meet the highest standards of quality and performance.
+            Descubre nuestra línea completa de solventes químicos diseñados para cumplir con los más altos estándares de calidad y rendimiento.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export function Products() {
               <CardFooter>
                 <Button asChild variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors bg-transparent">
                   <Link href={`/products/${product.id}`}>
-                    More about
+                    Más información
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
@@ -80,10 +80,10 @@ export function Products() {
 
         <div className="mt-12 text-center">
           <p className="text-muted-foreground mb-4">
-            Need a custom formulation or bulk order?
+            ¿Necesitas una formulación especial u ordenar al por mayor?
           </p>
           <Button asChild size="lg">
-            <Link href="#contact">Contact Our Sales Team</Link>
+            <Link href="#contact">Contacta a nuestro equipo comercial</Link>
           </Button>
         </div>
       </div>
