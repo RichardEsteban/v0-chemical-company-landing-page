@@ -6,10 +6,10 @@ import { Menu, X, FlaskConical } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact", label: "Contact" },
+  { href: "#home", label: "Inicio" },
+  { href: "#about", label: "Nosotros" },
+  { href: "#products", label: "Productos" },
+  { href: "#contact", label: "Contacto" },
 ]
 
 export function Header() {
@@ -39,7 +39,7 @@ export function Header() {
 
         <div className="hidden md:block">
           <Button asChild>
-            <Link href="#contact">Place Your Order</Link>
+            <Link href="#contact">Realiza tu pedido</Link>
           </Button>
         </div>
 
@@ -48,7 +48,7 @@ export function Header() {
           className="md:hidden rounded-md p-2 text-foreground"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
-          <span className="sr-only">Open menu</span>
+          <span className="sr-only">Abrir menú</span>
           {mobileMenuOpen ? (
             <X className="h-6 w-6" aria-hidden="true" />
           ) : (
@@ -73,7 +73,7 @@ export function Header() {
             <div className="pt-4">
               <Button asChild className="w-full">
                 <Link href="#contact" onClick={() => setMobileMenuOpen(false)}>
-                  Place Your Order
+                  Realiza tu pedido
                 </Link>
               </Button>
             </div>

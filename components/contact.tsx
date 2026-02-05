@@ -25,15 +25,15 @@ export function Contact() {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 rounded-full bg-secondary/10 px-4 py-1.5 text-sm font-medium text-secondary mb-6">
             <Mail className="h-4 w-4" />
-            Get in Touch
+            Ponte en contacto
           </div>
           
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4 text-balance">
-            Contact Us
+            Contáctanos
           </h2>
           
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Ready to place an order or have questions? Our team is here to help you find the right solutions.
+            ¿Listo para realizar un pedido o tienes consultas? Nuestro equipo está aquí para ayudarte a encontrar las soluciones adecuadas.
           </p>
         </div>
 
@@ -41,45 +41,45 @@ export function Contact() {
           <div className="lg:col-span-2">
             <Card>
               <CardHeader>
-                <CardTitle>Send us a Message</CardTitle>
+                <CardTitle>Envíanos un mensaje</CardTitle>
                 <CardDescription>
-                  Fill out the form below and we&apos;ll get back to you within 24 hours.
+                  Completa el formulario y nos pondremos en contacto contigo en un plazo máximo de 24 horas.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid gap-4 sm:grid-cols-2">
                     <div className="space-y-2">
-                      <Label htmlFor="name">Full Name</Label>
-                      <Input id="name" placeholder="Your name" required />
+                      <Label htmlFor="name">Nombre completo</Label>
+                      <Input id="name" placeholder="Tu nombre" required />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="company">Company</Label>
-                      <Input id="company" placeholder="Your company" />
+                      <Label htmlFor="company">Empresa</Label>
+                      <Input id="company" placeholder="Tu empresa" />
                     </div>
                   </div>
                   
                   <div className="grid gap-4 sm:grid-cols-2">
                     <div className="space-y-2">
-                      <Label htmlFor="email">Email</Label>
-                      <Input id="email" type="email" placeholder="you@company.com" required />
+                      <Label htmlFor="email">Correo electrónico</Label>
+                      <Input id="email" type="email" placeholder="tu@empresa.com" required />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="phone">Phone</Label>
+                      <Label htmlFor="phone">Teléfono</Label>
                       <Input id="phone" type="tel" placeholder="+51 999 999 999" />
                     </div>
                   </div>
                   
                   <div className="space-y-2">
-                    <Label htmlFor="subject">Subject</Label>
-                    <Input id="subject" placeholder="How can we help you?" required />
+                    <Label htmlFor="subject">Asunto</Label>
+                    <Input id="subject" placeholder="¿Cómo podemos ayudarte?" required />
                   </div>
                   
                   <div className="space-y-2">
-                    <Label htmlFor="message">Message</Label>
+                    <Label htmlFor="message">Mensaje</Label>
                     <Textarea
                       id="message"
-                      placeholder="Tell us about your requirements..."
+                      placeholder="Cuéntanos sobre tus necesidades..."
                       rows={4}
                       required
                     />
@@ -89,12 +89,12 @@ export function Contact() {
                     {submitted ? (
                       <>
                         <CheckCircle className="mr-2 h-4 w-4" />
-                        Message Sent!
+                        ¡Mensaje enviado!
                       </>
                     ) : (
                       <>
                         <Send className="mr-2 h-4 w-4" />
-                        Send Message
+                        Enviar mensaje
                       </>
                     )}
                   </Button>
@@ -111,7 +111,7 @@ export function Contact() {
                     <MapPin className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground">Address</h3>
+                    <h3 className="font-semibold text-foreground">Dirección</h3>
                     <p className="text-sm text-muted-foreground mt-1">
                       Av. Industrial 1234<br />
                       Lima, Peru
@@ -128,7 +128,7 @@ export function Contact() {
                     <Phone className="h-5 w-5 text-secondary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground">Phone</h3>
+                    <h3 className="font-semibold text-foreground">Teléfono</h3>
                     <p className="text-sm text-muted-foreground mt-1">
                       +51 (1) 555-0123<br />
                       +51 999 555 0123
@@ -145,7 +145,7 @@ export function Contact() {
                     <Mail className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground">Email</h3>
+                    <h3 className="font-semibold text-foreground">Correo electrónico</h3>
                     <p className="text-sm text-muted-foreground mt-1">
                       sales@quimpro.com<br />
                       support@quimpro.com
@@ -157,11 +157,11 @@ export function Contact() {
 
             <Card className="bg-primary text-primary-foreground">
               <CardContent className="pt-6">
-                <h3 className="font-semibold">Business Hours</h3>
+                <h3 className="font-semibold">Horario de atención</h3>
                 <div className="mt-2 space-y-1 text-sm text-primary-foreground/80">
-                  <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                  <p>Saturday: 9:00 AM - 1:00 PM</p>
-                  <p>Sunday: Closed</p>
+                  <p>Lunes a viernes: 8:00 a. m. - 6:00 p. m.</p>
+                  <p>Sábado: 9:00 a. m. - 1:00 p. m.</p>
+                  <p>Domingo: Cerrado</p>
                 </div>
               </CardContent>
             </Card>

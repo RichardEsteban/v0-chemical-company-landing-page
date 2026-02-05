@@ -4,20 +4,20 @@ const stats = [
   {
     icon: Clock,
     value: "20+",
-    label: "Years of Experience",
-    description: "Serving the industry since 2002",
+    label: "Años de experiencia",
+    description: "Atendiendo a la industria desde 2002",
   },
   {
     icon: Package,
     value: "20+",
-    label: "Chemical Products",
-    description: "Wide range of quality solvents",
+    label: "Productos químicos",
+    description: "Amplia gama de solventes de calidad",
   },
   {
     icon: ShieldCheck,
     value: "ISO 9001:2015",
-    label: "Certified",
-    description: "Quality Management System",
+    label: "Certificación",
+    description: "Sistema de gestión de calidad",
   },
 ]
 
@@ -29,22 +29,22 @@ export function About() {
           <div>
             <div className="inline-flex items-center gap-2 rounded-full bg-secondary/10 px-4 py-1.5 text-sm font-medium text-secondary mb-6">
               <Award className="h-4 w-4" />
-              About Us
+              Sobre nosotros
             </div>
             
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-6 text-balance">
-              Our Experience Supports Us
+              Nuestra experiencia nos respalda
             </h2>
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-foreground">QUIMPRO</strong> is a Peruvian chemical company with a strong market presence since 2002, specialized in the manufacturing, commercialization, and distribution of high-quality chemical solvents for industrial, automotive, and commercial sectors.
+                <strong className="text-foreground">QUIMPRO</strong> es una empresa química peruana con sólida presencia en el mercado desde 2002, especializada en la fabricación, comercialización y distribución de solventes químicos de alta calidad para los sectores industrial, automotriz y comercial.
               </p>
               <p>
-                We are recognized for our commitment to quality, safety, and continuous improvement. Our products are developed under strict quality standards to ensure reliability and optimal performance.
+                Nos caracterizamos por nuestro compromiso con la calidad, la seguridad y la mejora continua. Nuestros productos se desarrollan bajo estrictos estándares de calidad para garantizar confiabilidad y desempeño óptimo.
               </p>
               <p>
-                We provide personalized service and specialized technical support, becoming a strategic partner for our clients&apos; projects.
+                Brindamos un servicio personalizado y soporte técnico especializado, convirtiéndonos en un aliado estratégico para los proyectos de nuestros clientes.
               </p>
             </div>
           </div>

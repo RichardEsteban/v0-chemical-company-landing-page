@@ -22,37 +22,35 @@ import {
 } from "lucide-react"
 
 const characteristicIcons: Record<string, React.ElementType> = {
-  "High Purity": Sparkles,
-  "Ultra Pure": Sparkles,
-  "Fast Drying": Zap,
-  "Fast Evaporating": Zap,
-  "Fast Evaporation": Zap,
-  "Fast Acting": Zap,
-  "Industrial Use": Factory,
-  "Professional Grade": Factory,
-  "Lab Grade": Factory,
-  "Compatibility": Layers,
-  "Compatible": Layers,
-  "Solvent Power": Droplets,
-  "High Power": Droplets,
-  "No Residue": Shield,
-  "Low Residue": Shield,
-  "Residue-free": Shield,
-  "Eco-Friendly": Shield,
-  "Safe": Shield,
-  "Safe Storage": Shield,
-  "Concentrated": Layers,
-  "Versatile": Layers,
-  "Low Odor": Shield,
-  "UV Protection": Shield,
-  "Excellent Flow": Droplets,
-  "Refined": Sparkles,
-  "Economical": Award,
-  "Medical Grade": Award,
-  "Disinfectant": Shield,
-  "Quality Assured": Award,
-  "Consistent": Award,
-  "Quality Certified": Award,
+  "Alta pureza": Sparkles,
+  Ultrapura: Sparkles,
+  "Secado rápido": Zap,
+  "Evaporación rápida": Zap,
+  "Acción rápida": Zap,
+  "Uso industrial": Factory,
+  "Calidad profesional": Factory,
+  "Grado laboratorio": Factory,
+  Compatibilidad: Layers,
+  Compatible: Layers,
+  "Poder solvente": Droplets,
+  "Alto poder": Droplets,
+  "Sin residuos": Shield,
+  "Bajo residuo": Shield,
+  Ecológico: Shield,
+  Seguro: Shield,
+  "Almacenamiento seguro": Shield,
+  Concentrado: Layers,
+  Versátil: Layers,
+  "Bajo olor": Shield,
+  "Protección UV": Shield,
+  "Excelente flujo": Droplets,
+  Refinado: Sparkles,
+  Económico: Award,
+  "Grado médico": Award,
+  Desinfectante: Shield,
+  "Calidad garantizada": Award,
+  Consistente: Award,
+  "Certificada en calidad": Award,
 }
 
 export async function generateStaticParams() {
@@ -103,11 +101,11 @@ export default async function ProductPage({
           <div className="mx-auto max-w-7xl px-4 lg:px-8 py-4">
             <nav className="flex items-center gap-2 text-sm text-muted-foreground">
               <Link href="/" className="hover:text-primary transition-colors">
-                Home
+                Inicio
               </Link>
               <span>/</span>
               <Link href="/#products" className="hover:text-primary transition-colors">
-                Products
+                Productos
               </Link>
               <span>/</span>
               <span className="text-foreground font-medium">{product.name}</span>
@@ -155,7 +153,7 @@ export default async function ProductPage({
 
                 {/* Presentations */}
                 <div className="space-y-3">
-                  <h3 className="font-semibold text-foreground">Available Presentations</h3>
+                  <h3 className="font-semibold text-foreground">Presentaciones disponibles</h3>
                   <div className="flex flex-wrap gap-2">
                     {product.presentations.map((presentation) => (
                       <Badge
@@ -176,19 +174,19 @@ export default async function ProductPage({
                   className="w-full bg-[#25D366] hover:bg-[#128C7E] text-white"
                 >
                   <a
-                    href={`https://wa.me/1234567890?text=Hello, I'm interested in ${product.name}`}
+                    href={`https://wa.me/1234567890?text=Hola, estoy interesado en ${product.name}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <MessageCircle className="mr-2 h-5 w-5" />
-                    Contact via WhatsApp
+                    Contactar por WhatsApp
                   </a>
                 </Button>
 
                 <Button asChild variant="outline" className="w-full bg-transparent">
                   <Link href="/#products">
                     <ArrowLeft className="mr-2 h-4 w-4" />
-                    Back to Products
+                  Volver a productos
                   </Link>
                 </Button>
               </div>
@@ -201,10 +199,10 @@ export default async function ProductPage({
           <div className="mx-auto max-w-7xl px-4 lg:px-8">
             <div className="text-center mb-8">
               <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl mb-3">
-                Main Applications
+                Aplicaciones principales
               </h2>
               <p className="text-muted-foreground">
-                Discover how to use {product.name} in different industrial applications
+                Descubre cómo utilizar {product.name} en diferentes aplicaciones industriales
               </p>
             </div>
 
@@ -219,7 +217,7 @@ export default async function ProductPage({
                 />
               </div>
               <div className="bg-amber-500 text-amber-950 px-4 py-3 text-sm">
-                <strong>Note:</strong> Replace the URL of this video with the real one of your product. You can upload it to YouTube and paste the embed link here.
+                <strong>Nota:</strong> Reemplaza la URL de este video por la real de tu producto. Puedes subirlo a YouTube y pegar aquí el enlace para insertar.
               </div>
             </div>
           </div>
@@ -230,7 +228,7 @@ export default async function ProductPage({
           <div className="mx-auto max-w-7xl px-4 lg:px-8">
             <div className="text-center mb-10">
               <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl mb-3">
-                Complete Characteristics
+                Características completas
               </h2>
             </div>
 
@@ -275,7 +273,7 @@ export default async function ProductPage({
           <div className="mx-auto max-w-4xl px-4 lg:px-8">
             <div className="text-center mb-8">
               <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
-                Product Description
+                Descripción del producto
               </h2>
             </div>
 
@@ -291,10 +289,10 @@ export default async function ProductPage({
         <section className="py-12 sm:py-16 bg-primary text-primary-foreground">
           <div className="mx-auto max-w-4xl px-4 lg:px-8 text-center">
             <h2 className="text-2xl font-bold tracking-tight sm:text-3xl mb-4">
-              Interested in {product.name}?
+              ¿Interesado en {product.name}?
             </h2>
             <p className="text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-              Contact us today to get a quote or learn more about our products and services.
+              Contáctanos hoy para solicitar una cotización o para obtener más información sobre nuestros productos y servicios.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -303,7 +301,7 @@ export default async function ProductPage({
                 variant="secondary"
                 className="bg-background text-foreground hover:bg-background/90"
               >
-                <Link href="/#contact">Contact Us</Link>
+                <Link href="/#contact">Contáctanos</Link>
               </Button>
               <Button
                 asChild
@@ -312,7 +310,7 @@ export default async function ProductPage({
                 className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 bg-transparent"
               >
                 <a
-                  href={`https://wa.me/1234567890?text=Hello, I'm interested in ${product.name}`}
+                  href={`https://wa.me/1234567890?text=Hola, estoy interesado en ${product.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -12,34 +12,34 @@ export function Hero() {
           <div className="flex flex-col gap-6">
             <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary w-fit">
               <Shield className="h-4 w-4" />
-              ISO 9001:2015 Certified
+              Certificación ISO 9001:2015
             </div>
             
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl text-balance">
-              High-Quality Chemical Solvents at the Best Price
+              Solventes químicos de alta calidad al mejor precio
             </h1>
             
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-              We manufacture and distribute chemical solvents designed to ensure safety, performance, and professional results for industrial, automotive, and commercial sectors.
+              Fabricamos y distribuimos solventes químicos diseñados para garantizar seguridad, desempeño y resultados profesionales para los sectores industrial, automotriz y comercial.
             </p>
             
             <div className="flex flex-col gap-4 sm:flex-row">
               <Button asChild size="lg" className="text-base">
-                <Link href="#contact">Contact Us</Link>
+                <Link href="#contact">Contáctanos</Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="text-base bg-transparent">
-                <Link href="#products">View Products</Link>
+                <Link href="#products">Ver productos</Link>
               </Button>
             </div>
 
             <div className="mt-4 flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Beaker className="h-5 w-5 text-primary" />
-                <span>20+ Products</span>
+                <span>20+ productos</span>
               </div>
               <div className="flex items-center gap-2">
                 <Award className="h-5 w-5 text-secondary" />
-                <span>20+ Years Experience</span>
+                <span>20+ años de experiencia</span>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ export function Hero() {
                   </div>
                 </div>
                 <p className="text-sm font-medium text-muted-foreground">
-                  Premium Chemical Solvents
+                  Solventes químicos premium
                 </p>
               </div>
             </div>
