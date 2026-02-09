@@ -44,7 +44,7 @@ export function Products({ products }: ProductsProps) {
                     src={product.image || "/placeholder.svg"}
                     alt={product.name}
                     fill
-                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    className="object-contain transition-transform duration-300 group-hover:scale-105"
                   />
                   <Badge 
                     variant="secondary" 
