@@ -23,8 +23,8 @@ export function Header() {
           <Image
             src="/logo.jpg"
             alt="QUIMPRO Logo"
-            width={40}
-            height={40}
+            width={75}
+            height={75}
             className="rounded-lg"
           />
           <span className="text-xl font-bold text-foreground"></span>

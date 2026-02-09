@@ -1,6 +1,7 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Beaker, Shield, Award } from "lucide-react"
+import { Shield, Award } from "lucide-react"
 
 export function Hero() {
   return (
@@ -47,31 +48,13 @@ export function Hero() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-primary/20 to-secondary/20 blur-2xl" />
             <div className="relative overflow-hidden rounded-2xl bg-muted p-8 shadow-xl">
-              <div className="flex flex-col items-center justify-center gap-6">
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="flex h-32 w-32 items-center justify-center rounded-xl bg-primary/10 p-4">
-                    <Beaker className="h-16 w-16 text-primary" />
-                  </div>
-                  <div className="flex h-32 w-32 items-center justify-center rounded-xl bg-secondary/10 p-4">
-                    <div className="h-20 w-14 rounded-lg bg-secondary/40 relative">
-                      <div className="absolute bottom-0 left-0 right-0 h-12 rounded-b-lg bg-secondary/60" />
-                    </div>
-                  </div>
-                  <div className="flex h-32 w-32 items-center justify-center rounded-xl bg-secondary/10 p-4">
-                    <div className="h-16 w-16 rounded-full border-4 border-secondary/60 flex items-center justify-center">
-                      <div className="h-8 w-8 rounded-full bg-secondary/40" />
-                    </div>
-                  </div>
-                  <div className="flex h-32 w-32 items-center justify-center rounded-xl bg-primary/10 p-4">
-                    <div className="h-20 w-12 rounded-t-full bg-primary/40 relative">
-                      <div className="absolute -top-2 left-1/2 -translate-x-1/2 h-4 w-8 rounded-t-lg bg-primary/60" />
-                    </div>
-                  </div>
-                </div>
-                <p className="text-sm font-medium text-muted-foreground">
-                  Solventes químicos premium
-                </p>
-              </div>
+              <Image
+                src="/hero-image.jpg"
+                alt="Solventes químicos de alta calidad"
+                width={500}
+                height={400}
+                className="w-full h-auto rounded-lg"
+              />
             </div>
           </div>
         </div>
