@@ -200,7 +200,7 @@ export default async function ProductPage({
                   className="w-full bg-[#25D366] hover:bg-[#128C7E] text-white"
                 >
                   <a
-                    href={`https://wa.me/1234567890?text=Hola, estoy interesado en ${product.name}`}
+                    href={`https://wa.me/992360331?text=Hola, estoy interesado en ${product.name}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -336,7 +336,7 @@ export default async function ProductPage({
                 className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 bg-transparent"
               >
                 <a
-                  href={`https://wa.me/1234567890?text=Hola, estoy interesado en ${product.name}`}
+                  href={`https://wa.me/992360331?text=Hola, estoy interesado en ${product.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
