@@ -1,4 +1,4 @@
-import { prisma } from "@/lib/db"
+import { products as staticProducts } from "./products-data"
 
 export type ProductCharacteristic = {
   title: string
@@ -51,15 +51,11 @@ function parseProductRow(row: {
 }
 
 export async function getProducts(): Promise<Product[]> {
-  const rows = await prisma.product.findMany({
-    orderBy: { name: "asc" },
-  })
-  return rows.map(parseProductRow)
+  // For Vercel deployment, use static data instead of Prisma
+  return staticProducts
 }
 
 export async function getProductById(id: string): Promise<Product | null> {
-  const row = await prisma.product.findUnique({
-    where: { id },
-  })
-  return row ? parseProductRow(row) : null
+  // For Vercel deployment, use static data instead of Prisma
+  return staticProducts.find(product => product.id === id) || null
 }
