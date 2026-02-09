@@ -143,22 +143,7 @@ export const products = [
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
   },
-  {
-    id: "diluyente-epoxico",
-    name: "Diluyente Epóxico NFSC-800",
-    shortDescription: "Solvente de alta solvencia para pinturas epóxicas de dos componentes.",
-    fullDescription: "Ajusta la viscosidad de recubrimientos epóxicos sin alterar su resistencia química. Esencial para aplicaciones en pisos y estructuras metálicas.",
-    category: "Industrial",
-    image: "/products/epoxico.jpg",
-    images: ["/products/epoxico.jpg"],
-    features: ["Alta solvencia", "Compatibilidad total"],
-    highlights: ["Uso industrial", "Mezcla homogénea", "Pureza garantizada"],
-    presentations: ["Bidón x 5 GLN", "Galonera x 2.6 LTS", "Galonera x 2.5 LTS"],
-    characteristics: [
-      { title: "Especializado", description: "Diseñado para resinas epóxicas de alta densidad." }
-    ],
-    youtubeVideoId: "tu-video-id",
-  },
+  
   {id: "thinner-standard",
     name: "Thinner Standard NFSC-600",
     shortDescription: "Thinner de uso general para limpieza y diluciones sencillas.",
@@ -229,30 +214,7 @@ export const products = [
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
   },
-  {
-    id: "isopropyl-alcohol-70",
-    name: "Alcohol Isopropílico 70%",
-    shortDescription: "Solución de alcohol isopropílico al 70% para sanitización y desinfección.",
-    fullDescription: "El Alcohol Isopropílico al 70% es la solución óptima para la desinfección de superficies. Al contener un porcentaje de agua destilada, la evaporación es ligeramente más lenta, permitiendo que el alcohol penetre y elimine microorganismos de manera más efectiva en áreas comerciales e industriales.",
-    category: "Comercial / Salud",
-    image: "/products/isopropyl-70.jpg",
-    images: ["/products/isopropyl-70.jpg"],
-    features: ["Poder desinfectante", "Uso seguro en superficies"],
-    highlights: ["Ideal para sanitización", "Acción prolongada", "Uso industrial y doméstico"],
-    presentations: [
-      "Cilindro x 55 GLN", 
-      "Bidón x 5 GLN", 
-      "Galonera x 2.6 LTS", 
-      "Galonera x 2.5 LTS", 
-      "Botella x 0.9 LTS",
-      "Botella x 0.5 LTS"
-    ],
-    characteristics: [
-      { title: "Eficacia", description: "Proporción ideal para la ruptura de membranas celulares de bacterias y virus." },
-      { title: "Versatilidad", description: "Seguro para la mayoría de superficies plásticas y metálicas en entornos de oficina y talleres." }
-    ],
-    youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
-  },
+  
 ]
 
 export type Product = (typeof products)[number]
