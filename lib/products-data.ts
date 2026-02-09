@@ -1,15 +1,15 @@
 export const products = [
   {
-    id: "thinner-extra",
-    name: "Thinner Extra",
-    shortDescription: "Solvente de alto desempeño para aplicaciones de pintura industrial. Evaporación rápida y excelentes propiedades de dilución.",
-    fullDescription: "THINNER EXTRA es un producto de calidad premium diseñado para aplicaciones que requieren excelencia. Especialmente formulado para uso industrial intensivo, este thinner ofrece los más altos estándares de pureza y rendimiento. Ideal para talleres profesionales, fábricas y aplicaciones industriales que exigen resultados consistentes y de alta calidad.",
+    id: "thinner-acrilico",
+    name: "Thinner Acrílico NFSC-100",
+    shortDescription: "Thinner reforzado de alta calidad para dilución de lacas y selladores.",
+    fullDescription: "El THINNER ACRÍLICO NFSC-100 (Reforzado) es un solvente balanceado diseñado para ofrecer una evaporación controlada y un acabado brillante. Especialmente formulado para aplicaciones que requieren un alto poder de dilución sin comprometer el brillo original.",
     category: "Industrial",
     image: "/products/thinner-industrial.jpg",
     images: [
-      "/products/thinner-industrial.jpg",
-      "/products/thinner-industrial.jpg",
-      "/products/thinner-industrial.jpg",
+      "/products/thinner-acrilico-1.jpg",
+      "/products/thinner-acrilico-2.jpg",
+      "/products/thinner-acrilico-3.jpg",
     ],
     features: ["Secado rápido", "Alta pureza"],
     highlights: [
@@ -17,7 +17,7 @@ export const products = [
       "Uso industrial intensivo",
       "Múltiples presentaciones",
     ],
-    presentations: ["Cylinder x 55 GLN", "Drum x 5 GLN", "Gallon"],
+    presentations: ["Cilindro x 55 GLN", "Bidón x 5 GLN", "Galonera x 3 LTS", "Botella x 0.9 LTS", "Botella x 0.45 LTS"],
     characteristics: [
       {
         title: "Alta pureza",
@@ -47,10 +47,10 @@ export const products = [
     youtubeVideoId: "dQw4w9WgXcQ",
   },
   {
-    id: "automotive-solvent",
-    name: "Automotive Solvent",
-    shortDescription: "Formulado especialmente para repintado automotriz. Compatible con sistemas de poliuretano y acrílico.",
-    fullDescription: "Nuestro AUTOMOTIVE SOLVENT está diseñado especialmente para la industria automotriz. Ofrece compatibilidad excepcional con sistemas de pintura de poliuretano y acrílico, garantizando acabados de calidad profesional. Su fórmula proporciona flujo y nivelación óptimos para un acabado uniforme y sin defectos.",
+    id: "thinner-acrilico-200",
+    name: "Thinner Acrílico Automotriz NFSC-200",
+    shortDescription: "Especialmente formulado para repintado automotriz profesional.",
+    fullDescription: "Nuestro Thinner Especial Automotriz NFSC-200 garantiza acabados de calidad profesional. Ofrece compatibilidad excepcional con sistemas de poliuretano y acrílico, proporcionando flujo y nivelación óptimos para un acabado sin defectos.",
     category: "Automotive",
     image: "/products/automotive-solvent.jpg",
     images: [
@@ -64,7 +64,7 @@ export const products = [
       "Acabado resistente a los rayos UV",
       "Calidad profesional",
     ],
-    presentations: ["Cylinder x 55 GLN", "Drum x 5 GLN", "Gallon"],
+    presentations: ["Cilindro x 55 GLN", "Bidón x 5 GLN", "Galonera x 3 LTS", "Botella x 0.9 LTS", "Botella x 0.45 LTS"],
     characteristics: [
       {
         title: "Bajo olor",
@@ -94,52 +94,23 @@ export const products = [
     youtubeVideoId: "dQw4w9WgXcQ",
   },
   {
-    id: "degreaser-concentrate",
-    name: "Degreaser Concentrate",
-    shortDescription: "Poderoso desengrasante para maquinarias y equipos. Biodegradable y amigable con el medio ambiente.",
-    fullDescription: "Nuestro DEGREASER CONCENTRATE es una solución poderosa y ecológica para la remoción de grasa y aceite en maquinarias y equipos. Su fórmula biodegradable es segura para el medio ambiente y ofrece un poder de limpieza excepcional para aplicaciones industriales.",
+    id: "aguarras-mineral",
+    name: "Aguarrás Mineral",
+    shortDescription: "Solvente refinado ideal para limpieza y dilución de productos base aceite.",
+    fullDescription: "El Aguarrás Mineral es perfecto para la limpieza de brochas y equipos, así como para la dilución de esmaltes y barnices sintéticos. Deja un residuo mínimo y tiene una velocidad de evaporación controlada.",
     category: "Commercial",
-    image: "/products/degreaser.jpg",
-    images: [
-      "/products/degreaser.jpg",
-      "/products/degreaser.jpg",
-      "/products/degreaser.jpg",
-    ],
-    features: ["Ecológico", "Concentrado"],
-    highlights: [
-      "Fórmula biodegradable",
-      "Alta concentración",
-      "Seguro para los equipos",
-    ],
-    presentations: ["Drum x 55 GLN", "Drum x 5 GLN", "Gallon"],
+    image: "/products/aguarras.jpg",
+    images: ["/products/aguarras.jpg"],
+    features: ["Versátil", "Económico"],
+    highlights: ["Altamente refinado", "Uso multipropósito", "Económico"],
+    presentations: ["Cilindro", "Bidón", "Galonera", "Botella"],
     characteristics: [
-      {
-        title: "Ecológico",
-        description: "Fórmula biodegradable segura para el medio ambiente.",
-      },
-      {
-        title: "Alto poder",
-        description: "Poder desengrasante excepcional para trabajos industriales exigentes.",
-      },
-      {
-        title: "Concentrado",
-        description: "Altamente concentrado para un uso más económico.",
-      },
-      {
-        title: "Seguro",
-        description: "Seguro para la mayoría de equipos y superficies industriales.",
-      },
-      {
-        title: "Versátil",
-        description: "Apto para múltiples aplicaciones de limpieza.",
-      },
-      {
-        title: "Acción rápida",
-        description: "Actúa rápidamente disolviendo grasa y aceite.",
-      },
+      { title: "Refinado", description: "Proceso de filtrado que garantiza una calidad constante." },
+      { title: "Compatibilidad", description: "Funciona perfectamente con barnices y pinturas base aceite." }
     ],
-    youtubeVideoId: "dQw4w9WgXcQ",
+    youtubeVideoId: "tu-video-id",
   },
+  
   {
     id: "acetone-premium",
     name: "Acetone Premium",
