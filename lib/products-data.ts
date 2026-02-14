@@ -44,7 +44,7 @@ export const products = [
         description: "No deja residuos después del secado, garantizando acabados limpios.",
       },
     ],
-    youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
+    youtubeVideoId: "https://www.youtube.com/watch?v=QeHKAkoLjRw",
     fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA NFSC-100.pdf",
     hojaSeguridad: "/products/datasheets/FICHA DE SEGURIDAD-NFSC-100.pdf",
   },
